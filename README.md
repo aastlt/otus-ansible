@@ -12,6 +12,7 @@
 5. Сайт слушает на нестандартном порту - 8080, для этого использовалась переменная "nginx_listen_port: 8080"
 
 Для проверки выполнить:
+
 vagrant up
 
 ansible-playbook playbooks/nginx.yml
