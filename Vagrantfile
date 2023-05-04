@@ -30,6 +30,12 @@ Vagrant.configure("2") do |config|
           SHELL
 
       end
+      
+      config.vm.provision "ansible" do |ansible|
+        ansible.verbose = "vvv"
+        ansible.playbook = "playbooks/nginx.yml"
+        ansible.become = "true"
+      end
   end
 end
 
