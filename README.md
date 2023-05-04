@@ -13,6 +13,7 @@
 
 Для проверки выполнить:
 
+
 vagrant up
 
 ansible-playbook playbooks/nginx.yml
