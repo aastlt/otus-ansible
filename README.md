@@ -13,7 +13,9 @@
 
 Для проверки выполнить:
 vagrant up
+
 ansible-playbook playbooks/nginx.yml
+
 
 Проверить доступность сайта:
 http://192.168.122.150:8080
